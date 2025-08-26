@@ -3,9 +3,16 @@ console.log("hola");
 //
 let numeroA = 5;
 let numeroB = 9;
-if (numeroA > numeroB){
-    console.log("El numero A es mayor a B")
+if (numeroA > numeroB) {
+  console.log("El numero A es mayor a B");
+} else {
+  console.log("no");
 }
-else{
-    console.log("no")
+//Crea un bloque de código que tome la edad de un usuario y la compare con un número de referencia.
+//  Si la edad es mayor al número de referencia, imprimir en consola un mensaje.//
+
+let edad = 18
+let ref = 11
+if (edad > ref){
+    console.log(`La edad es mayor que el numero de referencia ${ref}`)
 }
