@@ -16,3 +16,15 @@ let ref = 11
 if (edad > ref){
     console.log(`La edad es mayor que el numero de referencia ${ref}`)
 }
+
+//Crea un bloque de código que compare dos números e imprima en consola un valor booleano.
+//
+
+let saldo = 5000
+let deuda = 2000
+
+if (saldo > deuda) {
+  console.log (true)
+}
+
+////
