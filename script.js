@@ -34,3 +34,9 @@ let nombre2 = "Diego"
 if(nombre1 == nombre2){
   console.log (nombre1)
 }
+
+//Crea un bloque de código que imprima en consola un número en caso de que sea un número negativo.
+let numeros = -3
+if (numeros < 0){
+  console.log(numeros)
+}
