@@ -27,4 +27,10 @@ if (saldo > deuda) {
   console.log (true)
 }
 
-////
+//Crea un bloque de código que compare dos nombres, y si ambos son iguales imprima en consola el nombre.//
+
+let nombre1 = "Diego"
+let nombre2 = "Diego"
+if(nombre1 == nombre2){
+  console.log (nombre1)
+}
