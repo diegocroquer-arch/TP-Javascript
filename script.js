@@ -66,19 +66,40 @@
 //   console.log("Es una consonante")
 // }
 //Crea un bloque de código que tome de referencia un número 
-// e imprima en pantalla si el número es menor a 10, mayor a 50, o si está entre esos dos valores.
-ref = 60
-if (ref< 10){
-  console.log("la referencia es menor a 10")
-}
-else if(ref>=10){
-  console.log ("La referencia esta entre 10 y 50")
-}
-else if(ref<=50){
-  console.log ("La referencia esta entre 10 y 50")
-}
-else {
-  console.log("La referencia es mayor a 50")
-}
+// // e imprima en pantalla si el número es menor a 10, mayor a 50, o si está entre esos dos valores.
+// ref = 60
+// if (ref< 10){
+//   console.log("la referencia es menor a 10")
+// }
+// else if(ref>=10){
+//   console.log ("La referencia esta entre 10 y 50")
+// }
+// else if(ref<=50){
+//   console.log ("La referencia esta entre 10 y 50")
+// }
+// else {
+//   console.log("La referencia es mayor a 50")
+// }
 
 //arrays/
+
+let marcas = [`nike`, `adidas`, `rebook`]
+// console.log (marcas[marcas.length -1])
+// marcas.push(`samsung`)
+// console.log(marcas)
+// let comida
+// marcas.push(`kfc`)
+// marcas.pop()
+// let comidas = marcas.pop()
+// console.log (comida)
+// console.log(marcas)
+// marcas.shift()
+// console.log(marcas)
+// marcas.unshift(`nokia`, `motorola`)
+// console.log(marcas)
+// console.log(marcas.includes(`gato`))
+// console.log (marcas.includes(`adidas`))
+console.log(marcas.some(element => element.length>4))
+let [ zap1, zap2, zap3] = marcas
+console.log(zap2)
+console.log(marcas)
