@@ -40,3 +40,15 @@ let numeros = -3
 if (numeros < 0){
   console.log(numeros)
 }
+
+//Crea un bloque de código que compare dos números. Si el número es par, imprimir en consola ‘El número es par’. 
+// De lo contrario, imprimir ‘El número es impar’.
+let numP = 8
+let numIP = 5
+if ( (numP + numIP) %2 == 0){
+  console.log ("el numero es par")
+}
+else {
+  console.log("el numero es impar")
+}
+
