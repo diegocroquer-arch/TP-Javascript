@@ -52,3 +52,16 @@ else {
   console.log("el numero es impar")
 }
 
+//Crea una función que tome de referencia una variable string cuyo valor sea una letra,
+//  y luego imprima en consola si es una vocal o una consonante.
+ref = "A"
+
+if(ref == "a" ||ref =="e" ||ref =="i"||ref== "o"||ref=="u" ){
+  console.log ("Es una vocal")
+}
+if(ref == "A" ||ref =="E" ||ref =="I"||ref== "O"||ref=="U" ){
+  console.log ("Es una vocal")
+}
+else {
+  console.log("Es una consonante")
+}
