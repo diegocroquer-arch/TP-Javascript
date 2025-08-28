@@ -83,7 +83,7 @@
 
 //arrays/
 
-let marcas = [`nike`, `adidas`, `rebook`]
+// let marcas = [`nike`, `adidas`, `rebook`]
 // console.log (marcas[marcas.length -1])
 // marcas.push(`samsung`)
 // console.log(marcas)
@@ -106,13 +106,20 @@ let marcas = [`nike`, `adidas`, `rebook`]
 
 //LIFO//
 
-let stack = []
-stack.push(10, 20, 30)
-laststack = stack.pop()
-console.log(laststack)
-stack.push(40)
-console.log(stack[stack.length -1 ])
-console.log(stack.length)
+// let stack = []
+// stack.push(10, 20, 30)
+// laststack = stack.pop()
+// console.log(laststack)
+// stack.push(40)
+// console.log(stack[stack.length -1 ])
+// console.log(stack.length)
 
 //FIFO//
 
+let queue = []
+queue.push("A" ,"B", "C")
+console.log(queue.shift())
+console.log(queue[0])
+queue.push("D")
+console.log(queue[0])
+console.log(queue.length)
