@@ -1,4 +1,4 @@
-// //Crea un bloque de código que compare dos variables numéricas. Si el número A es mayor que el número B, imprimir en consola ‘El número A es mayor a B‘.
+// //1 Crea un bloque de código que compare dos variables numéricas. Si el número A es mayor que el número B, imprimir en consola ‘El número A es mayor a B‘.
 // //
 // let numeroA = 5;
 // let numeroB = 9;
@@ -7,7 +7,7 @@
 // } else {
 //   console.log("no");
 // }
-// //Crea un bloque de código que tome la edad de un usuario y la compare con un número de referencia.
+// //2 Crea un bloque de código que tome la edad de un usuario y la compare con un número de referencia.
 // //  Si la edad es mayor al número de referencia, imprimir en consola un mensaje.//
 
 // let edad = 18
@@ -16,7 +16,7 @@
 //     console.log(`La edad es mayor que el numero de referencia ${ref}`)
 // }
 
-// //Crea un bloque de código que compare dos números e imprima en consola un valor booleano.
+// //3 Crea un bloque de código que compare dos números e imprima en consola un valor booleano.
 // //
 
 // let saldo = 5000
@@ -26,25 +26,31 @@
 //   console.log (true)
 // }
 
-// //Crea un bloque de código que compare dos nombres, y si ambos son iguales imprima en consola el nombre.//
+// //4 Crea un bloque de código que compare dos nombres, y si ambos son iguales imprima en consola el nombre.//
 
 // let nombre1 = "Diego"
 // let nombre2 = "Diego"
 // if(nombre1 == nombre2){
 //   console.log (nombre1)
 // }
-
-// //Crea un bloque de código que imprima en consola un número en caso de que sea un número negativo.
+//
+// //5 Crea un bloque de código que compare dos nombres, y si ambos son diferente imprima en consola un mensaje.//
+let nombre1 = "Diego"
+let nombre2 = "Alex"
+if (nombre1 != nombre2){
+    console.log(`los nombres ${nombre1} y ${nombre2} no son iguales`)
+}
+// //6 Crea un bloque de código que imprima en consola un número en caso de que sea un número negativo.
 // let numeros = -3
 // if (numeros < 0){
 //   console.log(numeros)
 // }
-//Crea un bloque de código que imprima en consola un número en caso de que NO sea un número negativo.
-let po = -6
-if (po > 0){
-    console.log(po)
-}
-// //Crea un bloque de código que compare dos números. Si el número es par, imprimir en consola ‘El número es par’.
+//7 Crea un bloque de código que imprima en consola un número en caso de que NO sea un número negativo.
+// let po = -6
+// if (po > 0){
+//     console.log(po)
+// }
+// //8 Crea un bloque de código que compare dos números. Si el número es par, imprimir en consola ‘El número es par’.
 // // De lo contrario, imprimir ‘El número es impar’.
 // let numP = 8
 // let numIP = 5
@@ -55,7 +61,7 @@ if (po > 0){
 //   console.log("el numero es impar")
 // }
 
-//Crea una función que tome de referencia una variable string cuyo valor sea una letra,
+//10 Crea una función que tome de referencia una variable string cuyo valor sea una letra,
 //  y luego imprima en consola si es una vocal o una consonante.
 // ref = "A"
 
