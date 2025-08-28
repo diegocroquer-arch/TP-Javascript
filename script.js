@@ -99,7 +99,20 @@ let marcas = [`nike`, `adidas`, `rebook`]
 // console.log(marcas)
 // console.log(marcas.includes(`gato`))
 // console.log (marcas.includes(`adidas`))
-console.log(marcas.some(element => element.length>4))
-let [ zap1, zap2, zap3] = marcas
-console.log(zap2)
-console.log(marcas)
+// console.log(marcas.some(element => element.length>4))
+// let [ zap1, zap2, zap3] = marcas
+// console.log(zap2)
+// console.log(marcas)
+
+//LIFO//
+
+let stack = []
+stack.push(10, 20, 30)
+laststack = stack.pop()
+console.log(laststack)
+stack.push(40)
+console.log(stack[stack.length -1 ])
+console.log(stack.length)
+
+//FIFO//
+
