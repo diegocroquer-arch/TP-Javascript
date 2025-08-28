@@ -1,4 +1,3 @@
-// console.log("hola");
 // //Crea un bloque de código que compare dos variables numéricas. Si el número A es mayor que el número B, imprimir en consola ‘El número A es mayor a B‘.
 // //
 // let numeroA = 5;
@@ -40,7 +39,11 @@
 // if (numeros < 0){
 //   console.log(numeros)
 // }
-
+//Crea un bloque de código que imprima en consola un número en caso de que sea un número negativo.
+let neg = -5
+if (neg < 0){
+    console.log (`tu numero ${neg} es negativo`)
+}
 // //Crea un bloque de código que compare dos números. Si el número es par, imprimir en consola ‘El número es par’.
 // // De lo contrario, imprimir ‘El número es impar’.
 // let numP = 8
@@ -157,8 +160,8 @@
 //Crea un bloque de código que tome de referencia una variable ‘edad’.
 // Utiliza el operador ternario para imprimir en consola si es o no mayor de edad.
 
-let edad = 12;
-let mayor;
+// let edad = 12;
+// let mayor;
 
-mayor = edad >= 18 ? true : false;
-console.log(mayor);
+// mayor = edad >= 18 ? true : false;
+// console.log(mayor);
