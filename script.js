@@ -125,21 +125,25 @@
 // Si ambos números son mayores a 50,  imprimir en consola su suma. 
 // Sino, imprimir en consola el primer número menos el segundo.
 
-let num1 =2
-let num2 =60
-let res
-if(num1<10 && num2<10){
-    res = num1 * num2 
-    console.log(res)
-}
-if (num1>50 && num2>50){
-    res = num1 + num2
-    console.log(res)
-}
-else{
-    console.log(num1)
-    console.log(num2)
-}
+// let num1 =2
+// let num2 =60
+// let res
+// if(num1<10 && num2<10){
+//     res = num1 * num2 
+//     console.log(res)
+// }
+// if (num1>50 && num2>50){
+//     res = num1 + num2
+//     console.log(res)
+// }
+// else{
+//     console.log(num1)
+//     console.log(num2)
+// }
+
+//15 Crea un bloque de código que tome de referencia un número del 1 al 7 y devuelva el día de la semana correspondiente. 
+//Por ejemplo: 1 = ‘lunes
+
 //arrays/
 // let marcas = [`nike`, `adidas`, `rebook`]
 // console.log (marcas[marcas.length -1])
@@ -220,3 +224,5 @@ else{
 
 // mayor = edad >= 18 ? true : false;
 // console.log(mayor);
+
+// fin...
