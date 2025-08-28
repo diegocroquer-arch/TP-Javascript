@@ -34,12 +34,12 @@
 //   console.log (nombre1)
 // }
 //
-// //5 Crea un bloque de código que compare dos nombres, y si ambos son diferente imprima en consola un mensaje.//
-let nombre1 = "Diego"
-let nombre2 = "Alex"
-if (nombre1 != nombre2){
-    console.log(`los nombres ${nombre1} y ${nombre2} no son iguales`)
-}
+// // //5 Crea un bloque de código que compare dos nombres, y si ambos son diferente imprima en consola un mensaje.//
+// let nombre1 = "Diego"
+// let nombre2 = "Alex"
+// if (nombre1 != nombre2){
+//     console.log(`los nombres ${nombre1} y ${nombre2} no son iguales`)
+// }
 // //6 Crea un bloque de código que imprima en consola un número en caso de que sea un número negativo.
 // let numeros = -3
 // if (numeros < 0){
@@ -60,7 +60,16 @@ if (nombre1 != nombre2){
 // else {
 //   console.log("el numero es impar")
 // }
-
+// 9 Crea un bloque de código que compare dos números y luego imprima en consola si es positivo o negativo.
+// let num1 = 15
+// let num2 = -2
+// num = num1 + num2
+// if (num>0){
+//     console.log("el nmero es positivo")
+// }
+// else{
+//     console.log("el nmero es negativo")
+// }
 //10 Crea una función que tome de referencia una variable string cuyo valor sea una letra,
 //  y luego imprima en consola si es una vocal o una consonante.
 // ref = "A"
