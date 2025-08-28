@@ -83,7 +83,17 @@
 // else {
 //   console.log("Es una consonante")
 // }
-//Crea un bloque de código que tome de referencia un número
+
+//11 Crea un bloque de código que tome de referencia un nombre. 
+// Si el nombre ingresado es ‘Pedro’ imprimir en consola ‘Hola Pedro, como estás?’. De lo contrario, imprimir ‘Hola! Cómo te llamas?’.
+let pepe = "Diego"
+if (pepe == "Pedro") {
+console.log("Hola Pedro,como estas?")
+}
+else{
+console.log("Hola! Como te llamas?")
+}
+//13 Crea un bloque de código que tome de referencia un número
 // // e imprima en pantalla si el número es menor a 10, mayor a 50, o si está entre esos dos valores.
 // ref = 60
 // if (ref< 10){
