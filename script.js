@@ -41,7 +41,7 @@
 //   console.log(numeros)
 // }
 
-// //Crea un bloque de código que compare dos números. Si el número es par, imprimir en consola ‘El número es par’. 
+// //Crea un bloque de código que compare dos números. Si el número es par, imprimir en consola ‘El número es par’.
 // // De lo contrario, imprimir ‘El número es impar’.
 // let numP = 8
 // let numIP = 5
@@ -65,7 +65,7 @@
 // else {
 //   console.log("Es una consonante")
 // }
-//Crea un bloque de código que tome de referencia un número 
+//Crea un bloque de código que tome de referencia un número
 // // e imprima en pantalla si el número es menor a 10, mayor a 50, o si está entre esos dos valores.
 // ref = 60
 // if (ref< 10){
@@ -116,10 +116,14 @@
 
 //FIFO//
 
-let queue = []
-queue.push("A" ,"B", "C")
-console.log(queue.shift())
-console.log(queue[0])
-queue.push("D")
-console.log(queue[0])
-console.log(queue.length)
+// let queue = []
+// queue.push("A" ,"B", "C")
+// console.log(queue.shift())
+// console.log(queue[0])
+// queue.push("D")
+// console.log(queue[0])
+// console.log(queue.length)
+
+//Respuesta Teorica
+// El array con estructura Lifo o pila es mas performante con arrays nativos 
+// por que al usar metodos como "pop()" y "push()" no hace falta reorganizar o reindexear las variables //
