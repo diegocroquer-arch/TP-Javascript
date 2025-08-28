@@ -125,7 +125,7 @@
 // console.log(queue.length)
 
 //Respuesta Teorica
-// El array con estructura Lifo o pila es mas performante con arrays nativos 
+// El array con estructura Lifo o pila es mas performante con arrays nativos
 // por que al usar metodos como "pop()" y "push()" no hace falta reorganizar o reindexear las variables //
 
 //Crea un bloque de código que tome de referencia un número del 1 al 7.
@@ -152,4 +152,13 @@
 //     break
 // }
 
+//??Operador Ternario??//
 
+//Crea un bloque de código que tome de referencia una variable ‘edad’.
+// Utiliza el operador ternario para imprimir en consola si es o no mayor de edad.
+
+let edad = 12;
+let mayor;
+
+mayor = edad >= 18 ? true : false;
+console.log(mayor);
