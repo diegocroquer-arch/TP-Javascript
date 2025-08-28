@@ -86,12 +86,22 @@
 
 //11 Crea un bloque de código que tome de referencia un nombre. 
 // Si el nombre ingresado es ‘Pedro’ imprimir en consola ‘Hola Pedro, como estás?’. De lo contrario, imprimir ‘Hola! Cómo te llamas?’.
-let pepe = "Diego"
-if (pepe == "Pedro") {
-console.log("Hola Pedro,como estas?")
+// let pepe = "Diego"
+// if (pepe == "Pedro") {
+// console.log("Hola Pedro,como estas?")
+// }
+// else{
+// console.log("Hola! Como te llamas?")
+// }
+
+//12 Crea un bloque de código que tome de referencia la nota de un examen 
+// y devuelva ‘Estás aprobado’ si la nota es mayor o igual a 7, o ‘Estás desaprobado’ si la nota es menor a 7.
+let nota = 6
+if (nota >= 7){
+    console.log("Estas aprobado")
 }
-else{
-console.log("Hola! Como te llamas?")
+else {
+    console.log("Estas Desaprobado")
 }
 //13 Crea un bloque de código que tome de referencia un número
 // // e imprima en pantalla si el número es menor a 10, mayor a 50, o si está entre esos dos valores.
