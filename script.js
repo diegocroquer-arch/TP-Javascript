@@ -96,13 +96,14 @@
 
 //12 Crea un bloque de código que tome de referencia la nota de un examen 
 // y devuelva ‘Estás aprobado’ si la nota es mayor o igual a 7, o ‘Estás desaprobado’ si la nota es menor a 7.
-let nota = 6
-if (nota >= 7){
-    console.log("Estas aprobado")
-}
-else {
-    console.log("Estas Desaprobado")
-}
+// let nota = 6
+// if (nota >= 7){
+//     console.log("Estas aprobado")
+// }
+// else {
+//     console.log("Estas Desaprobado")
+// }
+
 //13 Crea un bloque de código que tome de referencia un número
 // // e imprima en pantalla si el número es menor a 10, mayor a 50, o si está entre esos dos valores.
 // ref = 60
@@ -119,8 +120,27 @@ else {
 //   console.log("La referencia es mayor a 50")
 // }
 
-//arrays/
+// 14 Crea un bloque de código que compare dos números. 
+// Si ambos números son menores a 10, imprimir en consola el múltiplo. 
+// Si ambos números son mayores a 50,  imprimir en consola su suma. 
+// Sino, imprimir en consola el primer número menos el segundo.
 
+let num1 =2
+let num2 =60
+let res
+if(num1<10 && num2<10){
+    res = num1 * num2 
+    console.log(res)
+}
+if (num1>50 && num2>50){
+    res = num1 + num2
+    console.log(res)
+}
+else{
+    console.log(num1)
+    console.log(num2)
+}
+//arrays/
 // let marcas = [`nike`, `adidas`, `rebook`]
 // console.log (marcas[marcas.length -1])
 // marcas.push(`samsung`)
