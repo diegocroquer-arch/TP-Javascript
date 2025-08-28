@@ -39,10 +39,10 @@
 // if (numeros < 0){
 //   console.log(numeros)
 // }
-//Crea un bloque de código que imprima en consola un número en caso de que sea un número negativo.
-let neg = -5
-if (neg < 0){
-    console.log (`tu numero ${neg} es negativo`)
+//Crea un bloque de código que imprima en consola un número en caso de que NO sea un número negativo.
+let po = -6
+if (po > 0){
+    console.log(po)
 }
 // //Crea un bloque de código que compare dos números. Si el número es par, imprimir en consola ‘El número es par’.
 // // De lo contrario, imprimir ‘El número es impar’.
