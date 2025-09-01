@@ -36,10 +36,34 @@ const prompt = require("prompt-sync")()
 // 4. Ingrese un número y mostrar su potencia n^2, repetir este proceso hasta que se
 // ingrese un número negativo
 
-let num 
+// let num 
+// num = prompt("que numero")
+
+// while (num>0){
+//     num = Number(num)
+//     let resultado = num **2
+//     console.log(resultado)
+//     num = prompt("que numero")
+// }
+// console.log("negativos No")
 
 // 5. Pedir un número hasta que se ingrese el número 0 o negativo, luego mostrar la suma
 // de todos los números ingresados
+
+let suma = 0
+let num 
+num = prompt("Que numeros quieres sumar? :")
+num = Number(num)
+
+while(num>0){
+    suma = suma + num
+    num = prompt("Que numeros quieres sumar? :")
+    num = Number(num)
+}
+console.log(suma)
+
+
+
 // 7. Utiliza un bucle do...while para pedir al usuario que ingrese un número positivo.
 // Continúa pidiendo hasta que ingrese un número positivo. Ejecutar ejercicio en consola
 // navegador para poder usar prompt
